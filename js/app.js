@@ -1,25 +1,25 @@
 'use strict';
 
 var imagesArray = [{
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5855_crop02.jpg',
+  imageSrc: 'images/IMG_5855_crop02.jpg',
   imageDsc: 'Ottoman with variation'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5856_crop02.jpg',
+  imageSrc: 'images/IMG_5856_crop02.jpg',
   imageDsc: 'Gored single jersey'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5857_crop02.jpg',
+  imageSrc: 'images/IMG_5857_crop02.jpg',
   imageDsc: 'Single-needle and multi-needle increases and decreases'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5858_crop02.jpg',
+  imageSrc: 'images/IMG_5858_crop02.jpg',
   imageDsc: 'Pointelle and bubbles'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5859_crop02.jpg',
+  imageSrc: 'images/IMG_5859_crop02.jpg',
   imageDsc: 'Single-bed and double-bed tuck stitch techniques'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5860_crop02.jpg',
+  imageSrc: 'images/IMG_5860_crop02.jpg',
   imageDsc: 'One 3x3 cable; two 1x1 cables'
 }, {
-  imageSrc: 'https://raw.githubusercontent.com/paulloveman/paulloveman.github.io/master/images/IMG_5861_crop02.jpg',
+  imageSrc: 'images/IMG_5861_crop02.jpg',
   imageDsc: 'Linked jersey panels'
 }];
 
