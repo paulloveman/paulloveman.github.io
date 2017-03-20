@@ -1,1 +1,95 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- CSS file for Bulma -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+
+<!-- CSS file for Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- CSS file for Flickity -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+<!-- CSS file for custom CSS -->
+<link rel="stylesheet" href="css/styles.css">
+
+<title>- KENT EVENTS -</title>
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+<div id="root">
+  <nav class="level is-mobile">
+  <!-- Left side of NAV -->
+    <div class="level-left">
+      <p class="level-item">
+        <!--<p class="nav-name">
+          <strong>
+            FIRST LASTNAME
+          </strong>
+        </p>-->
+        <a class="button is-outlined" :class="classObjectNavName">FIRST LASTNAME</a>
+      </p>
+    </div>
+  <!-- Right side of NAV -->
+    <div class="level-right">
+      <p class="level-item">
+        <a class="button is-black is-outlined" :class="classObject" @click="setDisplayAsList">LIST</a>
+      </p>
+      <p class="level-item">
+        <a class="button is-black is-outlined" :class="classObject" @click="setDisplayAsCarousel">CAROUSEL</a>
+      </p>
+    </div>
+  </nav>
+  
+  <div class="spacerUnderNav"></div>
+  
+  <div class="level is-mobile" v-if="displayAsList">
+    <div class="level-item gal-list">
+      <gallery-list>
+      </gallery-list>
+    </div>
+  </div>
+  
+  <gallery-carousel v-if="!displayAsList">
+  </gallery-carousel>
+  
+  <footer class="level is-mobile">
+    <div class="level-item">
+      <small>
+        Copyright 2017
+      </small>
+    </div>
+  </footer>
+  
+</div>
+
+
+
+<!-- Javascript files to support ___ -->
+
+
+<!-- Javascript files to load Vue.js and Flickity -->
+<!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!-- Javascript file to load the app's functionality -->
+<script src="js/app.js"></script>
+
+
+
+
+</body>
+</html>
