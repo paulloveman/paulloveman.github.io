@@ -57,7 +57,8 @@ Vue.component('gallery-carousel', {
   },
   mounted: function mounted() {
     new Flickity('.main-carousel', {
-      wrapAround: true
+      wrapAround: true,
+      imagesLoaded: true
     });
     //console.log("gallery-carousel mounted");
   }
