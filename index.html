@@ -55,14 +55,14 @@
   
   <div class="spacerUnderNav"></div>
   
-  <div class="level is-mobile" v-if="displayAsList">
+  <div class="level is-mobile" v-show="displayAsList">
     <div class="level-item gal-list">
       <gallery-list>
       </gallery-list>
     </div>
   </div>
   
-  <gallery-carousel v-if="!displayAsList">
+  <gallery-carousel v-show="!displayAsList">
   </gallery-carousel>
   
   <footer class="level is-mobile">
