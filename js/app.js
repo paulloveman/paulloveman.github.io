@@ -1,6 +1,21 @@
 'use strict';
 
 var imagesArray = [{
+  imageSrc: 'images/IMG_9486_crop02.jpg',
+  imageDsc: 'Pointelle mesh; fabric shaping via Intarsia'
+}, {
+  imageSrc: 'images/IMG_9487_crop02.jpg',
+  imageDsc: 'Front panel of a fully-fashioned top'
+}, {
+  imageSrc: 'images/IMG_9488_crop02.jpg',
+  imageDsc: 'Single jersey with integrated kangaroo pocket'
+}, {
+  imageSrc: 'images/IMG_9500_crop02.jpg',
+  imageDsc: 'Aran cabling; links-links edge'
+}, {
+  imageSrc: 'images/IMG_9504_crop02.jpg',
+  imageDsc: 'Two-color tubular Jacquard'
+}, {
   imageSrc: 'images/IMG_5855_crop02.jpg',
   imageDsc: 'Ottoman with variation'
 }, {
@@ -18,9 +33,6 @@ var imagesArray = [{
 }, {
   imageSrc: 'images/IMG_5860_crop02.jpg',
   imageDsc: 'One 3x3 cable; two 1x1 cables'
-}, {
-  imageSrc: 'images/IMG_5861_crop02.jpg',
-  imageDsc: 'Linked jersey panels'
 }];
 
 Vue.component('gallery-list', {
